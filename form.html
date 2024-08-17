@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css"
+</head>
+<body>
+    <div class="Headers">
+        <a href="./Index.html">Home</a>
+        <a href="./table.html">History</a>
+        <a href="">Team Info</a>
+        <a href="./List.html">Team Profiles</a>
+    </div>
+
+    <!-- Team questionaire page at top, maybe the whole team info spot, but probably in a different link -->
+    <h1>Team Info</h1>
+
+    <h2>Enter Your Team Name</h2>
+<!-- Will need Java to add functionality -->
+    <form>
+        <label> Team Name: </label>
+        <input type="text" name="Team Name" placeholder="Team Name">
+        <br>
+        <label> Championships: </label>
+        <input type="text" name="Championships" placeholder="Championships">
+        <br>
+        <label> Players: </label>
+        <input type="text" name="Players" placeholder="Players">
+        <br>
+        <label> Year: </label>
+        <input type="text" name="Year" placeholder="Year">
+    <br>
+    <button type=search> Search</button> 
+    </form>
+<!-- added a functioning search bar that will be used later  -->
+    <form action="/search" method="GET">
+        <input type="text" name="query" placeholder="Search...">
+        <button type="submit">Search</button>
+    </form>
+</body>
+</html>

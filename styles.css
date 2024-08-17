@@ -1,0 +1,68 @@
+/* Style the website you made last week using CSS with the following requirements:
+Use only external CSS file (no internal or inline styling)
+Every element must be styled.
+Create style rules using class, id, and element selectors */
+
+
+body{ background-color: silver;
+      text-align: center;
+    font-family: cambria, Georgia, 'Times New Roman', Times, serif;}
+title{text-shadow: blanchedalmond;
+margin: 3rem}
+h1{color:blanchedalmond}
+p{border-style: solid;
+  border-color:black;
+color: blanchedalmond;
+margin: 3rem}
+
+a{color:black}
+
+.Headers{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 20px;
+    gap:10px;
+    background-color: bisque;
+    flex-direction: column;
+    box-shadow: 2px 1px rgb(253, 253, 253)
+;}
+.Headers :hover{background-color: whitesmoke;}
+.Container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 60px;
+}
+.Profiles{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 3px;
+    ;
+}
+#Trophy{
+    border-style: solid;
+    border-color: black;
+    display: center;
+    height: 400px;
+    border-radius: 100%;
+    }
+
+h3:hover{background-color: whitesmoke;}
+h3{text-decoration: underline; } 
+li:hover{background-color: whitesmoke;}  
+li{color: black;
+font-size: 18px;
+margin: 2rem}
+
+table{
+    border-collapse: collapse;
+    width: 100%}
+th, td{
+    padding: 8px;
+    border-bottom: 1px solid black;
+    text-align: left;}
+th, td:hover{
+    background-color: antiquewhite;
+}
